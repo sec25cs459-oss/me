@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="48" viewBox="0 0 96 48">
+	<rect x="1" y="1" width="94" height="46" rx="6" fill="#0b132a" stroke="#334155"/>
+	<text x="8" y="18" font-family="monospace" font-size="10" fill="#cbd5e1">int x</text>
+	<text x="8" y="34" font-family="monospace" font-size="10" fill="#22c55e">42 @0x7ffc</text>
+</svg>
+
