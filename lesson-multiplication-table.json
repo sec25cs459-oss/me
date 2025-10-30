@@ -1,0 +1,17 @@
+{
+  "id": "lesson-multiplication-table",
+  "version": 1,
+  "module": "II",
+  "title": "Multiplication Table (loops)",
+  "content": {
+    "starterCode": "#include <stdio.h>\nint main(){int n; /* TODO: read n and print table 1..n */ return 0;}",
+    "solutionCode": "#include <stdio.h>\nint main(){int n; scanf(\"%d\", &n); for(int i=1;i<=n;i++){ for(int j=1;j<=n;j++){ printf(\"%d \", i*j); } printf(\"\\n\"); } return 0;}",
+    "language": "c",
+    "explanations": [
+      {"line": 2, "text": "Read n, the table size.", "tldr": "input n", "tags": ["IO"]},
+      {"line": 2, "text": "Outer loop i from 1..n.", "tldr": "rows", "tags": ["loops"]},
+      {"line": 2, "text": "Inner loop j from 1..n.", "tldr": "cols", "tags": ["loops"]}
+    ]
+  }
+}
+

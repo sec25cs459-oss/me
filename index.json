@@ -1,0 +1,9 @@
+[
+  { "id": "lesson-max-of-3", "title": "Max of Three Numbers", "module": "II" },
+  { "id": "lesson-multiplication-table", "title": "Multiplication Table (loops)", "module": "II" },
+  { "id": "lesson-gcd-euclid", "title": "GCD via Euclid", "module": "II" },
+  { "id": "lesson-selection-sort-search", "title": "Selection Sort + Linear/Binary Search", "module": "III" },
+  { "id": "lesson-recursion-factorial", "title": "Recursion: Factorial & Fibonacci", "module": "IV" },
+  { "id": "lesson-pointers-swap", "title": "Pointers: Swap & Pointer Arithmetic", "module": "IV" }
+]
+

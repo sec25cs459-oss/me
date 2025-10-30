@@ -1,0 +1,16 @@
+{
+  "id": "lesson-recursion-factorial",
+  "version": 1,
+  "module": "IV",
+  "title": "Recursion: Factorial & Fibonacci",
+  "content": {
+    "starterCode": "#include <stdio.h>\n/* TODO: implement factorial recursively */\nint main(){int n; return 0;}",
+    "solutionCode": "#include <stdio.h>\nlong long fact(int n){return n<=1?1:n*fact(n-1);} long long fib(int n){return n<=1?n:fib(n-1)+fib(n-2);} int main(){int n; scanf(\"%d\", &n); printf(\"fact=%lld fib=%lld\\n\", fact(n), fib(n)); return 0;}",
+    "language": "c",
+    "explanations": [
+      {"line": 1, "text": "Base case stops recursion.", "tldr": "base", "tags": ["recursion"]},
+      {"line": 1, "text": "Recursive case reduces n.", "tldr": "recur", "tags": ["recursion"]}
+    ]
+  }
+}
+

@@ -1,0 +1,16 @@
+{
+  "id": "lesson-max-of-3",
+  "version": 1,
+  "module": "II",
+  "title": "Finding Maximum of Three Numbers",
+  "content": {
+    "starterCode": "#include <stdio.h>\nint main(){int a,b,c; /* TODO: read input and print max */ return 0;}",
+    "solutionCode": "#include <stdio.h>\nint main(){int a,b,c; scanf(\"%d %d %d\", &a,&b,&c); int max=a; if(b>max) max=b; if(c>max) max=c; printf(\"%d\\n\", max); return 0;}",
+    "language": "c",
+    "explanations": [
+      {"line": 3, "text": "Declare integers a, b, c to store the inputs.", "tldr": "Allocate three int variables.", "tags": ["declaration", "memory"], "snapshotId": "snap-0003"},
+      {"line": 4, "text": "Read three integers from standard input.", "tldr": "Initialize a, b, c from input.", "tags": ["IO", "scanf"], "snapshotId": "snap-0004"}
+    ]
+  }
+}
+

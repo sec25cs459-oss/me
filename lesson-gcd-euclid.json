@@ -1,0 +1,17 @@
+{
+  "id": "lesson-gcd-euclid",
+  "version": 1,
+  "module": "II",
+  "title": "GCD via Euclid",
+  "content": {
+    "starterCode": "#include <stdio.h>\nint main(){int a,b; /* TODO: gcd */ return 0;}",
+    "solutionCode": "#include <stdio.h>\nint main(){int a,b; scanf(\"%d %d\", &a,&b); while(b!=0){ int r=a%b; a=b; b=r;} printf(\"%d\\n\", a); return 0;}",
+    "language": "c",
+    "explanations": [
+      {"line": 2, "text": "Read inputs a and b.", "tldr": "read", "tags": ["IO"]},
+      {"line": 2, "text": "Loop until remainder is 0.", "tldr": "while", "tags": ["loops"]},
+      {"line": 2, "text": "Update a,b with b and remainder.", "tldr": "swap+mod", "tags": ["operators"]}
+    ]
+  }
+}
+
